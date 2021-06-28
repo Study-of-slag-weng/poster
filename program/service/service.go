@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/BurntSushi/graphics-go"
+	"github.com/BurntSushi/graphics-go/graphics"
 	"github.com/Study-of-slag-weng/poster/program/common"
 	"github.com/Study-of-slag-weng/poster/program/logger"
 	"github.com/anthonynsimon/bild/transform"

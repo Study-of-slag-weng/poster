@@ -3,6 +3,7 @@ syntax = "proto3";
 package proto;
 option java_package = "cn.zuoxiupeng.poster";
 option java_outer_classname = "Poster";
+option go_package = "./";
 
 service Poster {
     rpc CreatePoster(CreatePosterRequest) returns (CreatePosterReply) {}
