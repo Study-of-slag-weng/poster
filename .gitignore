@@ -14,4 +14,3 @@
 bin/logs/*
 bin/poster
 
-proto/*.go
