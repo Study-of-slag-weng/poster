@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/shiguanghuxian/poster/proto"
+	"github.com/Study-of-slag-weng/poster/proto"
 	grpc "google.golang.org/grpc"
 )
 
@@ -123,7 +123,7 @@ func testByUrl(client proto.PosterClient) {
 		Left:    40,
 		Width:   150,
 		Angle:   60,
-		Content: "https://github.com/shiguanghuxian",
+		Content: "https://github.com/Study-of-slag-weng",
 	})
 	// 小程序码
 	wxQrCode := make([]*proto.WxQrCode, 0)

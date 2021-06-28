@@ -18,14 +18,14 @@ import (
 	"sync"
 	"time"
 
-	"code.google.com/p/graphics-go/graphics"
+	"github.com/BurntSushi/graphics-go"
+	"github.com/Study-of-slag-weng/poster/program/common"
+	"github.com/Study-of-slag-weng/poster/program/logger"
 	"github.com/anthonynsimon/bild/transform"
 	"github.com/fogleman/gg"
 	"github.com/golang/freetype"
 	"github.com/golang/freetype/truetype"
 	"github.com/nfnt/resize"
-	"github.com/shiguanghuxian/poster/program/common"
-	"github.com/shiguanghuxian/poster/program/logger"
 	qrcode "github.com/skip2/go-qrcode"
 )
 

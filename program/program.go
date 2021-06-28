@@ -4,9 +4,9 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/shiguanghuxian/poster/program/config"
-	"github.com/shiguanghuxian/poster/program/logger"
-	"github.com/shiguanghuxian/poster/program/transport"
+	"github.com/Study-of-slag-weng/poster/program/config"
+	"github.com/Study-of-slag-weng/poster/program/logger"
+	"github.com/Study-of-slag-weng/poster/program/transport"
 )
 
 // Program 主程序

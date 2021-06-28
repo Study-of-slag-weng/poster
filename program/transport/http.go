@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/Study-of-slag-weng/poster/program/config"
+	"github.com/Study-of-slag-weng/poster/program/service"
 	gin "github.com/gin-gonic/gin"
-	"github.com/shiguanghuxian/poster/program/config"
-	"github.com/shiguanghuxian/poster/program/service"
 )
 
 // HTTPTransport 提供http服务生成海报

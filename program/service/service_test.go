@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/shiguanghuxian/poster/program/config"
-	"github.com/shiguanghuxian/poster/program/logger"
+	"github.com/Study-of-slag-weng/poster/program/config"
+	"github.com/Study-of-slag-weng/poster/program/logger"
 )
 
 func TestMain(m *testing.M) {
@@ -41,12 +41,12 @@ func TestDrawPoster(t *testing.T) {
 /*
 goos: darwin
 goarch: amd64
-pkg: github.com/shiguanghuxian/poster/program/service
+pkg: github.com/Study-of-slag-weng/poster/program/service
 BenchmarkDrawPoster                   20         100703717 ns/op        16831983 B/op     117748 allocs/op
 BenchmarkDrawPoster-4                 20          83181121 ns/op        16832505 B/op     117756 allocs/op
 BenchmarkDrawPoster-8                 20          83203308 ns/op        16833221 B/op     117765 allocs/op
 PASS
-ok      github.com/shiguanghuxian/poster/program/service        32.778s
+ok      github.com/Study-of-slag-weng/poster/program/service        32.778s
 */
 func BenchmarkDrawPoster(b *testing.B) {
 	for i := 0; i < b.N; i++ {

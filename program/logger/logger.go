@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/shiguanghuxian/poster/program/common"
+	"github.com/Study-of-slag-weng/poster/program/common"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

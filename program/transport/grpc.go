@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/shiguanghuxian/poster/program/config"
-	"github.com/shiguanghuxian/poster/program/service"
-	"github.com/shiguanghuxian/poster/proto"
+	"github.com/Study-of-slag-weng/poster/program/config"
+	"github.com/Study-of-slag-weng/poster/program/service"
+	"github.com/Study-of-slag-weng/poster/proto"
 	grpc "google.golang.org/grpc"
 )
 

@@ -2,7 +2,7 @@ version: '3'
 
 services:
   poster:
-    image: shiguanghuxian/poster
+    image: Study-of-slag-weng/poster
     volumes:
       - ./bin/config/cfg.toml:/app/config/cfg.toml
       - ./bin/logs:/app/logs

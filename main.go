@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/shiguanghuxian/poster/program"
+	"github.com/Study-of-slag-weng/poster/program"
 )
 
 func main() {
